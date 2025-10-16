@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Document Metadata
+        This section contains metadata about the HTML document, such as character set,
+        viewport settings for responsive design, and the page title.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>My App</title>
+
+    <!--
+        Embedded CSS
+        All styling for the application is contained within this <style> tag.
+        This keeps the entire application within a single file as required.
+    -->
+    <style>
+        /* A basic reset for consistency across different browsers. */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 
+         * Body Styling 
+         * Using modern CSS (Flexbox) to center the content both vertically and horizontally.
+         * Sets a clean background color and a professional, sans-serif font stack.
+        */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            text-align: center;
+        }
+
+        /* 
+         * Main Content Container
+         * Provides a container for the main application content.
+        */
+        main {
+            padding: 2rem;
+        }
+
+        /* 
+         * Heading Styling
+         * Applies a clean, modern style to the primary heading.
+        */
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            color: #1d2129;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Main Content
+        The <main> tag is a semantic element that encloses the primary content of the page.
+        The <h1> tag fulfills the requirement for the heading.
+    -->
+    <main>
+        <h1>Version 1</h1>
+    </main>
+
+    <!--
+        Embedded JavaScript
+        All client-side logic is contained within this <script> tag.
+        For this simple application, no JavaScript is strictly necessary to meet the brief,
+        but the script tag is included to demonstrate a complete and professional structure.
+    -->
+    <script>
+        // This application is a static page and currently requires no JavaScript to function.
+        // A console log is added to show that the script is successfully loaded and parsed by the browser.
+        console.log("My App - Version 1 loaded successfully.");
+    </script>
+
+</body>
+</html>
